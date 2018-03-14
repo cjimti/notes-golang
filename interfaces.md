@@ -48,7 +48,7 @@ func (cr *CassandraRunner) Run() {
 ## Example Code
 
 - [Go Playground](https://play.golang.org/p/s5e28KLzs1z)
-- [Repository](examples/interfaces.go)
+- [Source: interfaces.go](examples/interfaces.go)
 
 ## Resources
 

@@ -62,7 +62,7 @@ Construct a new item as follows:
 ## Example Code
 
 - [Go Playground](https://play.golang.org/p/gVDJpm9_8Aa)
-- [Repository](examples/methods.go)
+- [Source: methods.go](examples/methods.go)
 
 ## Resources
 
