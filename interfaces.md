@@ -1,0 +1,4 @@
+# Interfaces
+
+Interfaces in Go.
+

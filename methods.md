@@ -1,6 +1,6 @@
-# Methods and Interfaces
+# Methods
 
-## Methods
+Methods in Go.
 
 - A method is a function with a **receiver** argument
   - `func (recv <type>) fn()`
@@ -9,7 +9,7 @@
 - Pointer receivers `func (recv *<type>)` should be used when the
 function needs to modify the receiver.
 
-### Example Methods
+## Example Methods
 
 ```go
 package example

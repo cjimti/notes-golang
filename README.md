@@ -2,4 +2,5 @@
 
 Notes on the Go Programming Language
 
-- [Methods and Interfaces](methods_interfaces.md)
+- [Methods](methods.md)
+- [Interfaces](interfaces.md)
