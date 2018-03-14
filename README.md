@@ -1,4 +1,4 @@
-# Go Notes
+# Go
 
 Notes on the Go Programming Language
 
