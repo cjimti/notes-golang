@@ -12,7 +12,7 @@ function needs to modify the receiver.
 ## Example Methods
 
 ```go
-package example
+package main
 
 // Item is a thing
 type Item struct {
@@ -23,13 +23,16 @@ type Item struct {
 
 // GetCfg gets the configuration string of the Item
 func (i *Item) GetCfg() string {
-    return i.Name
+    return i.cfg
 }
 
 // SetCfg sets a configuration string on the Item
 func (i *Item) SetCfg(cfg string) *Item {
     i.cfg = cfg
     return i
+}
+
+func main() {
 }
 
 ```
@@ -39,7 +42,7 @@ func (i *Item) SetCfg(cfg string) *Item {
 [Allocation with new](https://golang.org/doc/effective_go.html#allocation_new)
 allows you to construct a Type.
 
-`item := new(example.Item)`
+`item := new(Item)`
 
 You can create constructor functions as follows:
 
@@ -52,5 +55,18 @@ func NewItem() *Item {
 ```
 Construct a new item as follows:
 
-`item := example.NewItem()`
+`item := NewItem()`
 
+## Example Code
+
+- [Go Playground](https://play.golang.org/p/gVDJpm9_8Aa)
+- [Repository](examples/methods.go)
+
+## Resources
+
+
+- [Effective Go: Methods](https://golang.org/doc/effective_go.html#methods)
+- [Effective Go: Functions](https://golang.org/doc/effective_go.html#functions)
+- [Go by Example: Functions](https://gobyexample.com/functions)
+- Best Practices / Patterns
+    - [Accept Interfaces and return concrete types](http://idiomaticgo.com/post/best-practice/accept-interfaces-return-structs/)
