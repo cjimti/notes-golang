@@ -1,3 +1,5 @@
+[Golang Index](http://go.imti.co/)
+
 # Interfaces
 
 Interfaces in Go (and most languages that offer interfaces) are:

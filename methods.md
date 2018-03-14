@@ -1,3 +1,5 @@
+[Golang Index](http://go.imti.co/)
+
 # Methods
 
 Methods in Go.
