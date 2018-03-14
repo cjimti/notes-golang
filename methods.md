@@ -64,7 +64,6 @@ Construct a new item as follows:
 
 ## Resources
 
-
 - [Effective Go: Methods](https://golang.org/doc/effective_go.html#methods)
 - [Effective Go: Functions](https://golang.org/doc/effective_go.html#functions)
 - [Go by Example: Functions](https://gobyexample.com/functions)
